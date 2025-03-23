@@ -1,0 +1,13 @@
+.form-group {
+    margin-top: 1rem;
+}
+
+.form-group label {
+    font-size: 18px;
+}
+
+.label-with-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
