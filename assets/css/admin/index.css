@@ -1,0 +1,45 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card-detail {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-detail h5 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.28px;
+    color: #000;
+}
+
+.list-notes {
+    margin-top: 2rem;
+}
+
+.list-notes h5 {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.notes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.notes-detail h4 {
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -27,9 +27,11 @@ require_once __DIR__ . '/../../../config/config.php';
                     <h1><?= $title ?? '' ?></h1>
                 <?php endif; ?>
             </div>
+            <?php if(isset($isBtnDetail)): ?>
             <div>
-                <a href="<?= BASE_URL . '/views/user/profile.php' ?>" class="btn-icon btn-outline">
-                    <img src="<?= BASE_URL . '/assets/images/icons/person.svg' ?>" alt="">
+                <a href="<?= BASE_URL . '/views/user/profile/index.php' ?>" class="btn-icon btn-outline">
+                    <img src="<?= isset($customBtnDetail) ? BASE_URL . $customBtnDetail : BASE_URL . '/assets/images/icons/person.svg' ?>" alt="">
                 </a>
             </div>
+            <?php endif; ?>
         </div>

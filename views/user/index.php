@@ -2,6 +2,7 @@
 require_once __DIR__. '../../../config/config.php';
 
 $title = 'Home';
+$isBtnDetail = true;
 $additional_css = [
     '/assets/css/user/index.css',
 ];

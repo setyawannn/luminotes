@@ -52,10 +52,7 @@ include_once TEMPLATES_PATH . '/auth/header.php';
         </div>
 
         <div class="footer-button">
-            <a href="<?= BASE_URL. '/views/user/notes/preview.php'?>" class="btn btn-outline">
-                <img src="<?= BASE_URL . '/assets/images/icons/star-filled.svg' ?>" alt="">
-                Rate
-            </a>
+            <a href="<?= BASE_URL. '/views/user/notes/preview.php'?>" class="btn btn-primary">Desicion</a>
         </div>
     </div>  
 </section>

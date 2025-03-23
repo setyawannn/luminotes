@@ -1,0 +1,34 @@
+.tablist {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.join-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.teamlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.teamlist-container {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamlist-container h4 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.28px;
+    color: #000;
+}

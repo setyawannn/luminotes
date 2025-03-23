@@ -36,7 +36,7 @@ include_once TEMPLATES_PATH . '/auth/header.php';
             <div class="label-with-icon">
                 <label for="">File Preview</label>
                 <a href="<?= BASE_URL . '/views/user/profile.php' ?>" class="btn-icon btn-outline">
-                    <img src="<?= BASE_URL . '/assets/images/icons/person.svg' ?>" alt="">
+                    <img src="<?= BASE_URL . '/assets/images/icons/download.svg' ?>" alt="">
                 </a>
             </div>
 
