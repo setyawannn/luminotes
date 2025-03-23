@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-detail {
@@ -20,10 +21,6 @@
     font-weight: 500;
     letter-spacing: 1.28px;
     color: #000;
-}
-
-.list-notes {
-    margin-top: 2rem;
 }
 
 .list-notes h5 {
